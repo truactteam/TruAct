@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../Assets/Videos/BG-Animation.mp4';
+import video from '../Assets/Videos/bg_clip_2.mp4';
 import { FaCircleArrowRight } from "react-icons/fa6";
 import './HeroSection.css';
 import { motion } from "framer-motion";

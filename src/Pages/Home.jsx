@@ -126,7 +126,7 @@ const Home = () => {
             // borderTopRightRadius:'8%'
             }}
         >
-                <div className='Section2_head'>
+                <div className='Section2_head open-sans'>
                     {/* <p className='bg_fill1'><img src={bg_fill1} alt=''/></p> */}
                     {/* <p className='bg_fill2'><img src={bg_fill2} alt=''/></p> */}
                     <p className='bg_fill3'><img src={bg_fill3} alt='' style={{height:'30vh'}}/></p>
@@ -165,7 +165,7 @@ const Home = () => {
             
         {/* Slider */}
         <div style={{width:'95%', marginTop:'3rem', backgroundColor:'black'}}>
-            <div className='customerHeading'>
+            <div className='customerHeading open-sans'>
                         {/* <div className='gradient'></div> */}
                         <div className='customerHeadingText'>Our Customers</div>
                     </div>
