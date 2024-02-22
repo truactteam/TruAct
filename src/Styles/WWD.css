@@ -1,0 +1,205 @@
+.wwd_mainDiv1{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwd_mainDiv2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwd_animation_section1{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin-top: 1rem;
+}
+
+.wwd_animationGroup1{
+    position: relative;
+    width: 70%;
+    margin-right: 2rem;
+}
+
+.wwd_bg_img1{
+    position: absolute;
+    height: 110%;
+    width: 100%;
+}
+.wwd_animation1{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.wwd_content1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(119, 210, 223, 0.08), rgba(89, 143, 204, 0.06));
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgba(29, 29, 29, 0.2);
+}
+
+/* second animation section */
+
+.wwd_bg_img2{
+    position: absolute;
+    height: 60vh;
+    width: 120%;
+    margin-top: 11rem;
+}
+.wwd_animation_section2{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin-top: 5rem;
+}
+.wwd_content2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.06), rgba(169, 100, 248, 0.08));
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgba(29, 29, 29, 0.2);
+}
+
+/*3rd animation section */
+.wwd_animation_section3{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin-top: 5rem;
+}
+.wwd_animation3{
+    height: 80%;
+    width: 90%;
+    margin-top: 4em;
+    margin-right: 0.5em;
+}
+.wwd_bg_img3{
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    margin-right: 5rem;
+}
+.wwd_bg_img3_div{
+    margin-right: 5rem;
+}
+
+.wwd_animationGroup3{
+    position: relative;
+    width: 70%;
+    margin-right: 0em;
+}
+.wwd_content3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.06), rgba(237, 240, 93, 0.07));
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgba(29, 29, 29, 0.2);
+}
+
+/* common sections */
+
+.wwd_textContainerHeading{
+    color: #fccd0d;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    /* border: 2px solid grey; */
+    padding: 0px 5px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 8px #202020;
+    text-align: center;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-top: 2rem;
+}
+
+.wwd_box-border3 {
+    padding: 10px;
+    /* border: 2px solid; */
+    border-radius: 20px;
+    /* border-image-slice: 1; */
+    /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+    border-image: linear-gradient(#2e2c29, #999798) padding-box;
+    background: linear-gradient(
+      111.93deg,
+      rgba(14, 26, 45, 0.24) -1.4%,
+      rgba(75, 74, 27, 0.38) 104.96%
+    ) border-box;
+    backdrop-filter: blur(26px);
+}
+
+.wwd_detailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wwd_textContainerDetails{
+    font-size: 1rem;
+    padding: 0px 5px;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    width: 90%;
+    color: rgb(180, 180, 180);
+}
+
+.wwd_linkButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 1rem;
+}
+
+.wwd_linkButton1{
+    background-color: rgba(97, 129, 76);
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.wwd_linkButton2{
+    background-color: rgba(27, 27, 27, 0.6);
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: rgb(240, 231, 231);
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.wwd_linkButton1:hover{
+    scale: 0.9;
+}
+.wwd_linkButton2:hover{
+    scale: 0.9;
+}

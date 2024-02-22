@@ -1,0 +1,354 @@
+.MainDiv{
+    background-color: black;
+    width: 100%;
+}
+
+.heroSection{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    position: relative;
+    height: 100vh;
+    width:100%;
+}
+
+.heroSectionContent{
+    color:white;
+    z-index: 0;
+    margin-right: 9vw;
+    margin-top: 16vh;
+    width: 30vw;
+}
+
+.companyName{
+    display: flex;
+    font-size: 8rem;
+    font-weight: 500;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    font-family: "Fredoka", sans-serif;
+}
+
+.name{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+/*For animation in company name*/
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+}
+
+.p1{
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.p2{
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.p3{
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ /*company name animation end*/
+
+
+.companyLine{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fccd0d;
+}
+.marginPadding{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.gradient-text{
+    background: -webkit-repeating-radial-gradient(bottom right, circle, #fccd0d, #7c6b45 2%, #fccd0d 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.star{
+  margin: 0;
+  padding: 0;
+  margin-top: 2.2rem;
+  font-size: 15px;
+  position: absolute;
+}
+.starMargin{
+  margin: 2.8px;
+}
+ /*Line Up animation for company line */
+ .lineUp {
+    animation: 2s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.paragraph{
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 1rem; 
+    font-size: 1.1rem;
+    color: rgb(158, 153, 153);
+}
+
+.heroSectionButton{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 10px;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.link-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #fccd0d;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: black;
+    padding: 0.7rem;
+    /* opacity: 0; */
+    /* filter: blur(4px); */
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    width: 58%;
+}
+
+.link-button:hover{
+  scale: 1.1;
+}
+
+.videoDiv{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.videoPlay{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+}
+.rotate1 {
+  transition: all 0.1s ease-in;
+}
+.rotate2 {
+  transition: all 0.1s ease-in;
+}
+.rotate1:hover{
+  rotate: -15deg;
+  cursor: pointer;
+}
+
+.rotate2:hover{
+  rotate: 15deg;
+  cursor: pointer;
+}
+
+.arrowLogo{
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 300px){
+  .heroSectionContent{
+    width: 60vw;
+  }
+  .companyName{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .link-button{
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .companyLine{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fccd0d;
+  }
+  .starMargin{
+    margin: 1px;
+  }
+  .star{
+    font-size: 11px;
+    margin-top: 1.8rem;
+  }
+  .paragraph{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+  }
+  .arrowLogo{
+    font-size: 20px;
+    margin-left: 10px;
+  }  
+}
+
+@media screen and (max-width: 650px) and (min-width: 401px){
+  .heroSectionContent{
+    width: 60vw;
+  }
+  .companyName{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .link-button{
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .companyLine{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fccd0d;
+  }
+  .starMargin{
+    margin: 1px;
+  }
+  .star{
+    font-size: 11px;
+    margin-top: 1.8rem;
+  }
+  .paragraph{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+  }
+  .arrowLogo{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 651px){
+  .heroSectionContent{
+    width: 38vw;
+  }
+  .companyName{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .link-button{
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .companyLine{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fccd0d;
+  }
+  .starMargin{
+    margin: 1px;
+  }
+  .star{
+    font-size: 11px;
+    margin-top: 1.8rem;
+  }
+  .paragraph{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+  }
+  .arrowLogo{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 901px){
+  .heroSectionContent{
+    width: 35vw;
+  }
+  .companyName{
+    font-size: 4.5rem;
+    font-weight: 500;
+  }
+  .link-button{
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .companyLine{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fccd0d;
+  }
+  .starMargin{
+    margin: 1px;
+  }
+  .star{
+    font-size: 13px;
+    margin-top: 1.8rem;
+  }
+  .paragraph{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+  }
+  .arrowLogo{
+    font-size: 24px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1200px){
+  .companyName{
+    font-size: 5rem;
+    font-weight: 500;
+  }
+  .link-button{
+    width: 88%;
+  }
+  .companyLine{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fccd0d;
+  }
+  .starMargin{
+    margin: 1px;
+  }
+  .star{
+    font-size: 13px;
+    margin-top: 1.8rem;
+  }
+  .paragraph{
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}

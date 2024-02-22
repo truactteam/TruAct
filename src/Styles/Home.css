@@ -1,0 +1,1217 @@
+.customerHeading{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.customerHeadingText{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    /* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.gradient{
+    position: absolute;
+    width: 372.95px;
+    height: 217.05px;
+    border-radius: 100%;
+    left: calc(50% - 222.95px / 2 - 76.53px);
+    top: calc(50% / 2 - 47.47px);
+    background: linear-gradient(
+        123.77deg,
+        #8a2be2 -6.46%,
+        #ffa500 59.04%,
+        #f8f8ff 124.53%
+    );
+    opacity: 0.2;
+    filter: blur(34px);
+    transform: matrix(1, 0, -0.03, 1, 0, 0);
+}
+.box-border {
+    padding: 10px;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+    background: linear-gradient(
+      111.93deg,
+      rgba(14, 26, 45, 0.24) -1.4%,
+      rgba(17, 30, 50, 0.38) 104.96%
+    );
+    backdrop-filter: blur(26px);
+}
+
+.animation{
+    display: flex;
+    /* width: 100%; */
+}
+.Section2_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 0.5rem;
+    margin-bottom: 3rem;
+    padding-top: 0px;
+    background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    position: relative;
+}
+.bg_fill1{
+    position: absolute;
+    height: 20vh;
+    margin-left: 40rem;
+    opacity: 0.06;
+}
+.bg_fill2{
+    position: absolute;
+    height: 10vh;
+    margin-top: 20rem;
+    margin-right: 80rem;
+    opacity: 0.02;
+}
+.bg_fill3{
+    position: absolute;
+    margin-right: 22rem;
+    opacity: 0.4;
+}
+
+
+/* Engagement Section Container */
+.TilesHeading{
+    background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    margin-top: 2rem;
+}
+/* .TilesHeading:hover{
+    scale: 1.2;
+    text-shadow: 15px -30px 5px rgb(117, 117, 108);
+    background: -webkit-linear-gradient(rgb(234, 236, 92), rgba(241, 241, 241, 0.06));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffa500;
+} */
+.tilesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 20px;
+    width: 80%;
+}
+.tiles1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem;
+    height: 10vh;
+}
+.tiles2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 1rem;
+    height: 10vh;
+}
+.tiles1Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    border-radius: 3rem;
+    /*Border And Background Effect*/
+    border-width: 2px;
+    border-image-source: linear-gradient(to right bottom, #ffffff38, #e7adad00);
+    background: linear-gradient(
+      111.93deg,
+      rgba(14, 26, 45, 0.24) -1.4%,
+      rgba(17, 30, 50, 0.38) 104.96%
+    );
+    backdrop-filter: blur(26px);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.tiles1Item:hover{
+    scale: 1.2;
+    box-shadow: 5px 5px 15px rgb(105, 100, 100);
+}
+.tileDetails{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.tileIcon{
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    font-size: 40px;
+    color: #fccd0d;
+}
+.tiles2Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    padding: 10px;
+    border-radius: 3rem;
+    /*Border And Background Effect*/
+    border-width: 2px;
+    border-image-source: linear-gradient(to right bottom, #ffffff38, #e7adad00);
+    background: linear-gradient(
+      111.93deg,
+      rgba(14, 26, 45, 0.24) -1.4%,
+      rgba(17, 30, 50, 0.38) 104.96%
+    );
+    backdrop-filter: blur(26px);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.tiles2Item:hover{
+    scale: 1.2;
+    box-shadow: 5px 5px 15px rgb(105, 100, 100);
+}
+
+
+/* OverView Tiles Container */
+.overViewHeading{
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    color: #949394;
+}
+
+.overViewTiles{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.overViewTile1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 12%;
+    margin: 1rem;
+    height: 30vh;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.overViewTilesDetails{
+    margin: 0;
+    padding: 0;
+    margin-top: 0.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overViewTilesDetails p{
+    margin: 0;
+    padding: 0;
+}
+
+.OverViewtileIcon{
+    font-size: 30px;
+    color: #fccd0d;
+    margin-top: 4.5rem;
+    margin-bottom: 0.5rem;
+}
+.zoho{
+    font-size: 60px;
+    color: #fccd0d;
+    margin-top: 2.5rem;
+}
+.overViewDetailHeading{
+    font-size: 1.3rem;
+    color: #fccd0d;
+}
+.detailDetail{
+    font-size: 1rem;
+}
+.marginT{
+    margin-top: 8rem;
+}
+.marginB{
+    margin-bottom: 8rem;
+}
+.box-borderOverview {
+    padding: 10px;
+    /* border: 2px solid; */
+    /* border-image-slice: 1; */
+    /* border-width: 2px; */
+    /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+    border-image: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+    background: linear-gradient(
+      111.93deg,
+      rgba(14, 26, 45, 0.24) -1.4%,
+      rgba(17, 30, 50, 0.38) 104.96%
+    );
+    backdrop-filter: blur(26px);
+}
+
+
+/* Animation Cards */
+/* .card1{
+    opacity: 0;
+    transform: translateX(-300px);
+}
+.card2{
+    opacity: 0;
+    transform: translateX(500px);
+}
+.card3{
+    opacity: 0;
+    transform: translateX(-800px);
+}
+.card4{
+    opacity: 0;
+    transform: translateX(500px);
+}
+.card4{
+    opacity: 0;
+    transform: translateX(350px);
+} */
+
+
+@media screen and (max-width: 750px) and (min-width: 300px) {
+    .customerHeadingText{
+        font-size: 2.5rem;
+        /* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+    }
+    .gradient{
+        position: absolute;
+        width: 372.95px;
+        height: 217.05px;
+        border-radius: 100%;
+        left: calc(50% - 222.95px / 2 - 76.53px);
+        top: calc(50% / 2 - 47.47px);
+        background: linear-gradient(
+            123.77deg,
+            #8a2be2 -6.46%,
+            #ffa500 59.04%,
+            #f8f8ff 124.53%
+        );
+        opacity: 0.2;
+        filter: blur(34px);
+        transform: matrix(1, 0, -0.03, 1, 0, 0);
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    /* .TilesHeading:hover{
+        scale: 1.2;
+        text-shadow: 15px -30px 5px rgb(117, 117, 108);
+        background: -webkit-linear-gradient(rgb(234, 236, 92), rgba(241, 241, 241, 0.06));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #ffa500;
+    } */
+    .tilesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        padding: 20px;
+        width: 80%;
+        height: fit-content;
+    }
+    .tiles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem;
+        height: fit-content;
+    }
+    .tiles2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .tiles1Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        
+    }
+    .tiles1Item:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 15px rgb(105, 100, 100);
+    }
+    .tileDetails{
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    } 
+  }
+  
+  @media screen and (max-width: 650px) and (min-width: 401px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 4rem;
+    }
+    /* .TilesHeading:hover{
+        scale: 1.2;
+        text-shadow: 15px -30px 5px rgb(117, 117, 108);
+        background: -webkit-linear-gradient(rgb(234, 236, 92), rgba(241, 241, 241, 0.06));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #ffa500;
+    } */
+    .tilesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        padding: 20px;
+        width: 80%;
+        height: fit-content;
+    }
+    .tiles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0rem;
+        height: fit-content;
+    }
+    .tiles2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0rem;
+        height: fit-content;
+    }
+    .tiles1Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 0.3rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        
+    }
+    .tiles1Item:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 15px rgb(105, 100, 100);
+    }
+    .tileDetails{
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 0.3rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    }
+
+    /*OverView tiles*/
+
+    .overViewHeading{
+        font-size: 1.1rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        color: #949394;
+    }
+
+    .overViewTiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .overViewTile1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin: 0rem;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin: 1rem;
+    }
+    .overViewTilesDetails{
+        margin: 0;
+        padding: 0;
+        margin-top: 0.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .OverViewtileIcon{
+        font-size: 25px;
+        color: #fccd0d;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    .zoho{
+        font-size: 50px;
+        color: #fccd0d;
+        margin-top: 0.3rem;
+    }
+    .overViewDetailHeading{
+        font-size: 0.9rem;
+        color: #fccd0d;
+    }
+    .detailDetail{
+        font-size: 0.7rem;
+    }
+    .box-borderOverview {
+        padding: 10px;
+        /* border: 2px solid; */
+        /* border-image-slice: 1; */
+        /* border-width: 2px; */
+        /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+        border-image: none;
+        background: none;
+        backdrop-filter: none;
+    }
+    .marginT{
+        margin-top: 0rem;
+        margin: 1rem;
+    }
+    .marginB{
+        margin-bottom: 0rem;
+        margin: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 900px) and (min-width: 651px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 4rem;
+    }
+    .tilesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        padding: 20px;
+        width: 80%;
+        height: fit-content;
+    }
+    .tiles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem;
+        height: fit-content;
+    }
+    .tiles2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .tiles1Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        
+    }
+    .tiles1Item:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 15px rgb(105, 100, 100);
+    }
+    .tileDetails{
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    }
+
+    /*OverView tiles*/
+
+    .overViewHeading{
+        font-size: 1.8rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        color: #949394;
+    }
+
+    .overViewTiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .overViewTile1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 12%;
+        margin: 0rem;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin: 1rem;
+    }
+    .overViewTilesDetails{
+        margin: 0;
+        padding: 0;
+        margin-top: 0.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .OverViewtileIcon{
+        font-size: 25px;
+        color: #fccd0d;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    .zoho{
+        font-size: 50px;
+        color: #fccd0d;
+        margin-top: 0.3rem;
+    }
+    .overViewDetailHeading{
+        font-size: 1.1rem;
+        color: #fccd0d;
+    }
+    .detailDetail{
+        font-size: 0.8rem;
+    }
+    .box-borderOverview {
+        padding: 10px;
+        /* border: 2px solid; */
+        /* border-image-slice: 1; */
+        /* border-width: 2px; */
+        /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+        border-image: none;
+        background: none;
+        backdrop-filter: none;
+    }
+    .marginT{
+        margin-top: 0rem;
+        margin: 1rem;
+    }
+    .marginB{
+        margin-bottom: 0rem;
+        margin: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1199px) and (min-width: 901px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 1rem;
+    }
+    .tilesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        padding: 20px;
+        width: 80%;
+        height: fit-content;
+    }
+    .tiles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem;
+        height: fit-content;
+    }
+    .tiles2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .tiles1Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        
+    }
+    .tiles1Item:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 15px rgb(105, 100, 100);
+    }
+    .tileDetails{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    }
+
+    /*OverView tiles*/
+
+    .overViewHeading{
+        font-size: 2rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        color: #949394;
+    }
+
+    .overViewTiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .overViewTile1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 12%;
+        margin: 0rem;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin: 1rem;
+    }
+    .overViewTilesDetails{
+        margin: 0;
+        padding: 0;
+        margin-top: 0.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .OverViewtileIcon{
+        font-size: 30px;
+        color: #fccd0d;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .zoho{
+        font-size: 60px;
+        color: #fccd0d;
+        margin-top: 0.5rem;
+    }
+    .overViewDetailHeading{
+        font-size: 1.3rem;
+        color: #fccd0d;
+    }
+    .detailDetail{
+        font-size: 1rem;
+    }
+    .box-borderOverview {
+        padding: 10px;
+        /* border: 2px solid; */
+        /* border-image-slice: 1; */
+        /* border-width: 2px; */
+        /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+        border-image: none;
+        background: none;
+        backdrop-filter: none;
+    }
+    .marginT{
+        margin-top: 0rem;
+        margin: 1rem;
+    }
+    .marginB{
+        margin-bottom: 0rem;
+        margin: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1450px) and (min-width: 1200px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 2rem;
+    }
+    .tilesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        padding: 20px;
+        width: 80%;
+        height: fit-content;
+    }
+    .tiles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem;
+        height: fit-content;
+    }
+    .tiles2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .tiles1Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        
+    }
+    .tiles1Item:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 15px rgb(105, 100, 100);
+    }
+    .tileDetails{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    }
+
+    /*OverView tiles*/
+
+    .overViewHeading{
+        font-size: 2rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        color: #949394;
+    }
+
+    .overViewTiles{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1199px) and (min-width: 901px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 1rem;
+    }
+    .tilesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        padding: 20px;
+        width: 80%;
+        height: fit-content;
+    }
+    .tiles1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1rem;
+        height: fit-content;
+    }
+    .tiles2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .tiles1Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        
+    }
+    .tiles1Item:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 15px rgb(105, 100, 100);
+    }
+    .tileDetails{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+        /*Border And Background Effect*/
+        border-width: 2px;
+        border: 1px solid grey;
+        margin: 1rem;
+        border-image-source: none;
+        background: none;
+        backdrop-filter: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    }
+
+    /*OverView tiles*/
+
+    .overViewHeading{
+        font-size: 2rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        color: #949394;
+    }
+
+    .overViewTiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .overViewTile1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 12%;
+        margin: 0rem;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin: 1rem;
+    }
+    .overViewTilesDetails{
+        margin: 0;
+        padding: 0;
+        margin-top: 0.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .OverViewtileIcon{
+        font-size: 30px;
+        color: #fccd0d;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .zoho{
+        font-size: 60px;
+        color: #fccd0d;
+        margin-top: 0.5rem;
+    }
+    .overViewDetailHeading{
+        font-size: 1.3rem;
+        color: #fccd0d;
+    }
+    .detailDetail{
+        font-size: 1rem;
+    }
+    .box-borderOverview {
+        padding: 10px;
+        /* border: 2px solid; */
+        /* border-image-slice: 1; */
+        /* border-width: 2px; */
+        /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+        border-image: none;
+        background: none;
+        backdrop-filter: none;
+    }
+    .marginT{
+        margin-top: 0rem;
+        margin: 1rem;
+    }
+    .marginB{
+        margin-bottom: 0rem;
+        margin: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1700px) and (min-width: 1451px){
+    .TilesHeading{
+        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        margin-top: 2rem;
+    } 
+    .tileDetails{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    .tileIcon{
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 30px;;
+    }
+    .tiles2Item:hover{
+        scale: 1.1;
+    }
+  }

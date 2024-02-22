@@ -1,0 +1,255 @@
+.mainDivContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    color: #686767;
+    background-color: #202020;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+}
+
+.imgSection{
+    width: 25%;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.imglogo{
+    height: 10vh;
+    width: 15vw;
+}
+
+.company{
+    padding-left: 16px;
+    margin-top: 32px;
+}
+
+.contactLogoContainer{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.contactLogo{
+    font-size: 24px;
+    margin: 0px 10px;
+}
+
+.section{
+    margin: 2rem;
+}
+
+.section_head{
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+}
+
+.section_text{
+    margin-top: 3rem;
+}
+
+.vertical_Break{
+    height: 30vh;
+    border: 1px solid grey;
+    margin-top: 2rem;
+}
+
+.Horizontal_Break{
+    width: 70%;
+    border: 1px solid grey;
+}
+
+.bottomSection{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.bottomSectionText{
+    display: flex;
+}
+
+.sepration{
+    border: 1px solid grey;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.forSmallView{
+    display: flex;
+    width: 49%;
+}
+.forSmallView2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 399px) and (min-width: 300px){
+  
+}
+
+@media screen and (max-width: 599px) and (min-width: 400px){
+    .section_head{
+        font-size: 1rem;
+        margin-top: 1.3rem;
+    }
+    .section_text{
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+    .vertical_Break{
+        height: 70vh;
+        border: 1px solid grey;
+        margin-top: 2rem;
+    }
+    .company{
+        font-size: 1rem;
+    }
+    
+    .Horizontal_Break{
+        width: 100%;
+    }
+    .forSmallView{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .forSmallView2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        margin-left: 0px;
+    }
+    .imglogo{
+        height: 12vh;
+        width: 20vw;
+    }
+    .contactLogo{
+        font-size: 1rem;
+        margin: 0px 5px;
+    }
+    .bottomSectionText{
+        font-size: 0.6rem;
+    }
+    .sepration{
+        border: 1px solid grey;
+        height: 20px;
+        margin-top: 8px;
+    }
+    .imgContainer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px){
+    .section_head{
+        font-size: 1rem;
+        margin-top: 1.3rem;
+    }
+    .section_text{
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+    .vertical_Break{
+        height: 70vh;
+        border: 1px solid grey;
+        margin-top: 2rem;
+    }
+    .company{
+        font-size: 1rem;
+    }
+    
+    .Horizontal_Break{
+        width: 100%;
+    }
+    .forSmallView{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .forSmallView2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        margin-left: 0px;
+    }
+    .imglogo{
+        height: 16vh;
+        width: 30vw;
+    }
+    .contactLogo{
+        font-size: 1rem;
+        margin: 0px 5px;
+    }
+    
+}
+@media screen and (max-width: 1400px) and (min-width: 800px){
+    .section_head{
+        font-size: 1rem;
+        margin-top: 1.3rem;
+    }
+    .section_text{
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+    .vertical_Break{
+        height: 38vh;
+        border: 1px solid grey;
+        margin-top: 2rem;
+    }
+    .company{
+        font-size: 1rem;
+    }
+    .Horizontal_Break{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .forSmallView2{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        margin-left: 2rem;
+    }
+}
