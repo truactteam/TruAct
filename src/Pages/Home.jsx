@@ -126,7 +126,7 @@ const Home = () => {
             // borderTopRightRadius:'8%'
             }}
         >
-                <div className='Section2_head open-sans'>
+                <div className='Section2_head'>
                     {/* <p className='bg_fill1'><img src={bg_fill1} alt=''/></p> */}
                     {/* <p className='bg_fill2'><img src={bg_fill2} alt=''/></p> */}
                     <p className='bg_fill3'><img src={bg_fill3} alt='' style={{height:'30vh'}}/></p>

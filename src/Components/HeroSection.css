@@ -35,6 +35,11 @@
     display: flex;
     opacity: 0;
     filter: blur(4px);
+    /* font-family: "Kdam Thmor Pro", sans-serif; */
+}
+
+.U{
+   font-size: 7rem;
 }
 
 /*For animation in company name*/
@@ -195,6 +200,9 @@
     font-size: 4rem;
     font-weight: 500;
   }
+  .U{
+    font-size: 3rem;
+  }
   .link-button{
     width: 100%;
     font-size: 0.7rem;
@@ -229,6 +237,9 @@
   .companyName{
     font-size: 4rem;
     font-weight: 500;
+  }
+  .U{
+    font-size: 3rem;
   }
   .link-button{
     width: 100%;
@@ -265,6 +276,9 @@
     font-size: 4rem;
     font-weight: 500;
   }
+  .U{
+    font-size: 3rem;
+  }
   .link-button{
     width: 100%;
     font-size: 0.7rem;
@@ -300,6 +314,9 @@
     font-size: 4.5rem;
     font-weight: 500;
   }
+  .U{
+    font-size: 3.5rem;
+  }
   .link-button{
     width: 100%;
     font-size: 0.9rem;
@@ -331,6 +348,9 @@
   .companyName{
     font-size: 5rem;
     font-weight: 500;
+  }
+  .U{
+    font-size: 4rem;
   }
   .link-button{
     width: 88%;

@@ -13,7 +13,8 @@
     /* background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
     -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
-    font-weight: 600;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
     /* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -65,9 +66,10 @@
     /* background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    font-weight: 600;
+    font-weight: 500;
     transition: all 0.5s ease;
     position: relative;
+    font-family: "Roboto", sans-serif;
 }
 .bg_fill1{
     position: absolute;
@@ -155,7 +157,7 @@
 }
 .tileDetails{
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 1rem;
 }
 .tileIcon{

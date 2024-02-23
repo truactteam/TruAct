@@ -16,7 +16,7 @@ const HeroSection = () => {
             <div className='heroSectionContent'>
               <div className='companyName'>
                 <p className='name p1' style={{color:'#999798'}}><span className='rotate1 Fredoka'>T</span><span className='rotate2 Fredoka'>R</span></p>
-                <p className='name p2' style={{color:'#fccd0d'}}><span className='rotate1 Fredoka'>U</span></p>
+                <p className='name p2' style={{color:'#fccd0d'}}><span className='rotate1 kdam-thmor U'>U</span></p>
                 <p className='name p3' style={{color:'#999798'}}><span className='rotate2 Fredoka'>A</span><span className='rotate1 Fredoka'>C</span><span className='rotate2 Fredoka'>T</span></p>
               </div>
               {/* <div className='companyLine lineUp' style={{display:'flex', flexDirection:'column'}}><div>Welcome to your</div> <div>premium lounge</div></div> */}
