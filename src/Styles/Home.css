@@ -367,7 +367,7 @@
     }
     .tiles1Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         width: 80%;
         padding: 10px;
@@ -388,17 +388,17 @@
     }
     .tileDetails{
         font-size: 0.8rem;
-        font-weight: 600;
-        margin-left: 1rem;
+        font-weight: 400;
+        margin-left: 0.5rem;
     }
     .tileIcon{
         margin-right: 0.5rem;
         margin-left: 1rem;
-        font-size: 30px;;
+        font-size: 25px;
     }
     .tiles2Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         width: 80%;
         padding: 10px;
@@ -465,9 +465,9 @@
     }
     .tiles1Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 80%;
+        width: 60%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -486,19 +486,19 @@
     }
     .tileDetails{
         font-size: 0.8rem;
-        font-weight: 600;
+        font-weight: 400;
         margin-left: 1rem;
     }
     .tileIcon{
         margin-right: 0.5rem;
         margin-left: 1rem;
-        font-size: 30px;;
+        font-size: 25px;
     }
     .tiles2Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 80%;
+        width: 60%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -631,9 +631,9 @@
     }
     .tiles1Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 60%;
+        width: 50%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -651,20 +651,20 @@
         box-shadow: 5px 5px 15px rgb(105, 100, 100);
     }
     .tileDetails{
-        font-size: 0.8rem;
-        font-weight: 600;
+        font-size: 0.9rem;
+        font-weight: 500;
         margin-left: 1rem;
     }
     .tileIcon{
         margin-right: 0.5rem;
         margin-left: 1rem;
-        font-size: 30px;;
+        font-size: 25px;
     }
     .tiles2Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 60%;
+        width: 50%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -797,9 +797,9 @@
     }
     .tiles1Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 50%;
+        width: 40%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -828,9 +828,9 @@
     }
     .tiles2Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 50%;
+        width: 40%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -924,7 +924,7 @@
   }
   
   @media screen and (max-width: 1450px) and (min-width: 1200px){
-    .TilesHeading{
+    /* .TilesHeading{
         background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -942,8 +942,8 @@
         padding: 20px;
         width: 80%;
         height: fit-content;
-    }
-    .tiles1{
+    } */
+    /* .tiles1{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -951,8 +951,8 @@
         width: 100%;
         margin: 1rem;
         height: fit-content;
-    }
-    .tiles2{
+    } */
+    /* .tiles2{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -960,15 +960,15 @@
         width: 100%;
         margin: 0;
         height: fit-content;
-    }
-    .tiles1Item{
+    } */
+    /* .tiles1Item{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 40%;
-        padding: 10px;
+        padding: 10px; */
         /*Border And Background Effect*/
-        border-width: 2px;
+        /* border-width: 2px;
         border: 1px solid grey;
         margin: 1rem;
         border-image-source: none;
@@ -981,25 +981,25 @@
     .tiles1Item:hover{
         scale: 1.1;
         box-shadow: 5px 5px 15px rgb(105, 100, 100);
-    }
-    .tileDetails{
+    } */
+    /* .tileDetails{
         font-size: 1rem;
         font-weight: 600;
         margin-left: 1rem;
-    }
-    .tileIcon{
+    } */
+    /* .tileIcon{
         margin-right: 0.5rem;
         margin-left: 1rem;
         font-size: 30px;;
-    }
-    .tiles2Item{
+    } */
+    /* .tiles2Item{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 40%;
-        padding: 10px;
+        padding: 10px; */
         /*Border And Background Effect*/
-        border-width: 2px;
+        /* border-width: 2px;
         border: 1px solid grey;
         margin: 1rem;
         border-image-source: none;
@@ -1010,7 +1010,7 @@
     }
     .tiles2Item:hover{
         scale: 1.1;
-    }
+    } */
 
     /*OverView tiles*/
 
@@ -1068,9 +1068,9 @@
     }
     .tiles1Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 50%;
+        width: 40%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -1099,9 +1099,9 @@
     }
     .tiles2Item{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 50%;
+        width: 40%;
         padding: 10px;
         /*Border And Background Effect*/
         border-width: 2px;
@@ -1194,7 +1194,11 @@
     }
   }
   
-  @media screen and (max-width: 1700px) and (min-width: 1451px){
+  /* Just for Engagement tiles */
+  @media screen and (max-width: 1700px) and (min-width: 1200px){
+    .tilesContainer{
+        width: 90%;
+    }
     .TilesHeading{
         background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
         -webkit-background-clip: text;
@@ -1205,14 +1209,14 @@
         margin-top: 2rem;
     } 
     .tileDetails{
-        font-size: 1rem;
-        font-weight: 600;
-        margin-left: 1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-left: 0.5rem;
     }
     .tileIcon{
         margin-right: 0.5rem;
         margin-left: 1rem;
-        font-size: 30px;;
+        font-size: 25px;;
     }
     .tiles2Item:hover{
         scale: 1.1;

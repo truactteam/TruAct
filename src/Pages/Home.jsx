@@ -68,7 +68,7 @@ const Home = () => {
         },
         hidden:{
             opacity: 0,
-            x: '500px'
+            x: '200px'
         }
     }
     const card5 = {
@@ -78,7 +78,7 @@ const Home = () => {
         },
         hidden:{
             opacity: 0,
-            x: '350px'
+            x: '250px'
         }
     }
   return (

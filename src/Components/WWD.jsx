@@ -31,12 +31,12 @@ const WWD = () => {
                     </div>
                 </div>
 
-                <div style={{position:'relative', width:'50%', display: 'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
-                    <div style={{position:'absolute', opacity: '0.4', marginLeft:'10rem', rotate:'-25deg'}}>
+                <div className='motionImgDiv1'>
+                    <div className='motionImg1'>
                         <motion.img
                             src={bg_shape1}
                             alt='bg_image'
-                            style={{height:'50vh'}}
+                            className='insideMotion1'
                             animate={{ rotate: 360 }}
                             transition={{ ease: "linear", duration: 120, repeat: Infinity }}
                         />
@@ -61,12 +61,12 @@ const WWD = () => {
 
             <div className='wwd_animation_section2'>
                 
-                <div style={{position:'relative', width:'50%', display: 'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', marginTop:'2rem', marginRight:'2rem'}}>
-                    <div style={{position:'absolute', opacity: '0.4', marginRight:'10rem', marginTop:'2rem', rotate:'-25deg'}}>
+                <div className='motionImgDiv2'>
+                    <div className='motionImg2'>
                         <motion.img
                             src={bg_shape2}
                             alt='bg_image'
-                            style={{height:'60vh'}}
+                            className='insideMotion2'
                             animate={{ rotate: 360 }}
                             transition={{ ease: "linear", duration: 120, repeat: Infinity }}
                         />
@@ -110,12 +110,12 @@ const WWD = () => {
                 </div>
                 
 
-                <div style={{position:'relative', width:'50%', display: 'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
-                    <div style={{position:'absolute', opacity: '0.3', marginLeft:'10rem', rotate:'-25deg'}}>
+                <div className='motionImgDiv3'>
+                    <div className='motionImg3'>
                                 <motion.img 
                                     src={bg_shape3}
                                     alt='bg_image'
-                                    style={{height:'65vh'}}
+                                    className='insideMotion3'
                                     animate={{ rotate: 360 }}
                                     transition={{ ease: "linear", duration: 120, repeat: Infinity }}
                                 />
