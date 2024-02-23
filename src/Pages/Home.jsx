@@ -4,10 +4,10 @@ import Slider from '../Components/Slider';
 import '../Styles/Home.css'
 import Navbar from '../Components/Navbar';
 import '../Styles/Spinner.css';
-import DATAANALYSIS from '../Assets/Animations/Animation - SAAS DashBoard.json';
-import CAD from '../Assets/Animations/Animation - CAD.json';
-import SAAS from '../Assets/Animations/Animation - SAAS_img.json';
-import Animation from '../Components/Animation';
+// import DATAANALYSIS from '../Assets/Animations/Animation - SAAS DashBoard.json';
+// import CAD from '../Assets/Animations/Animation - CAD.json';
+// import SAAS from '../Assets/Animations/Animation - SAAS_img.json';
+// import Animation from '../Components/Animation';
 import { BsDatabaseFillDown } from "react-icons/bs";
 import { BsBarChartFill } from "react-icons/bs";
 import { FaThumbsUp, FaInfinity, FaMapMarkedAlt  } from "react-icons/fa";
@@ -20,8 +20,8 @@ import HeroSection from '../Components/HeroSection';
 import Footer from '../Components/Footer';
 import { motion } from "framer-motion";
 import WWD from '../Components/WWD';
-import bg_fill1 from '../Assets/Image/tech_bg_fill1.png';
-import bg_fill2 from '../Assets/Image/tech_ring.png';
+// import bg_fill1 from '../Assets/Image/tech_bg_fill1.png';
+// import bg_fill2 from '../Assets/Image/tech_ring.png';
 import bg_fill3 from '../Assets/Image/tech_bg_fill2.png';
 
 
@@ -68,7 +68,7 @@ const Home = () => {
         },
         hidden:{
             opacity: 0,
-            x: '200px'
+            x: '100px'
         }
     }
     const card5 = {
@@ -78,7 +78,7 @@ const Home = () => {
         },
         hidden:{
             opacity: 0,
-            x: '250px'
+            x: '100px'
         }
     }
   return (

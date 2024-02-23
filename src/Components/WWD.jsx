@@ -23,7 +23,7 @@ const WWD = () => {
             <div className='wwd_animation_section1'>
 
                 <div className='wwd_animationGroup1'>
-                    <div>
+                    <div className='not-required'>
                         <img src={bg_image1} alt='bg_effect1' className='wwd_bg_img1'/>
                     </div>
                     <div className='wwd_animation1'>
@@ -86,10 +86,10 @@ const WWD = () => {
                 </div>
 
                 <div className='wwd_animationGroup3'>
-                    <div>
+                    <div className='not-required'>
                         <img src={bg_image2} alt='bg_effect1' className='wwd_bg_img2'/>
                     </div>
-                    <div className='wwd_animation1'>
+                    <div className='wwd_animation2'>
                         <Lottie animationData={CAD} loop={true} />
                     </div>
                 </div>

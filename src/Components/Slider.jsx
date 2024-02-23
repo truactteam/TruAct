@@ -9,8 +9,8 @@ import {data} from '../Assets/Data/data';
 // import { FaCalendarAlt } from "react-icons/fa";
 import { MdPeople } from "react-icons/md";
 // import ReactStars from 'react-rating-stars-component'
-import { PiShootingStarFill } from "react-icons/pi";
-import { RiUserStarFill } from "react-icons/ri";
+// import { PiShootingStarFill } from "react-icons/pi";
+// import { RiUserStarFill } from "react-icons/ri";
 import { FaStar } from "react-icons/fa6";
 
 const Slider = () => {

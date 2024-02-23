@@ -96,7 +96,69 @@
 }
 
 @media screen and (max-width: 399px) and (min-width: 300px){
-  
+    .section_head{
+        font-size: 1rem;
+        margin-top: 1.3rem;
+    }
+    .section_text{
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+    .vertical_Break{
+        height: 70vh;
+        border: 1px solid grey;
+        margin-top: 2rem;
+    }
+    .company{
+        font-size: 1rem;
+    }
+    
+    .Horizontal_Break{
+        width: 100%;
+    }
+    .forSmallView{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .forSmallView2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgSection{
+        margin-left: 0px;
+    }
+    .imglogo{
+        height: 12vh;
+        width: 20vw;
+    }
+    .contactLogo{
+        font-size: 1rem;
+        margin: 0px 5px;
+    }
+    .bottomSectionText{
+        font-size: 0.6rem;
+    }
+    .sepration{
+        border: 1px solid grey;
+        height: 20px;
+        margin-top: 8px;
+    }
+    .imgContainer{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 599px) and (min-width: 400px){

@@ -318,16 +318,39 @@
     }
 }
 
-@media screen and (max-width: 400px) and (min-width: 300px){
+@media screen and (max-width: 399px) and (min-width: 300px){
     .TilesHeading{
-        background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
         transition: all 0.5s ease;
         margin-top: 3rem;
         text-align: center;
+    }
+    .bg_fill3{
+        position: absolute;
+        margin-right: 18rem;
+        opacity: 0.4;
+    }
+    
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px){
+    .Section2_head{
+        font-size: 2rem;
+        margin-bottom: 0rem;
+        font-weight: 400;
+    }
+    .TilesHeading{
+        font-size: 2rem;
+        font-weight: 500;
+        transition: all 0.5s ease;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .bg_fill3{
+        position: absolute;
+        margin-right: 18rem;
+        opacity: 0.4;
     }
     /* .TilesHeading:hover{
         scale: 1.2;
@@ -414,10 +437,90 @@
     }
     .tiles2Item:hover{
         scale: 1.1;
-    } 
-  }
+    }
+    /*OverView tiles*/
+
+    .overViewHeading{
+        font-size: 1.1rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        color: #949394;
+    }
+
+    .overViewTiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .overViewTile1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin: 0rem;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin: 1rem;
+    }
+    .overViewTilesDetails{
+        margin: 0;
+        padding: 0;
+        margin-top: 0.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .OverViewtileIcon{
+        font-size: 25px;
+        color: #fccd0d;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    .zoho{
+        font-size: 50px;
+        color: #fccd0d;
+        margin-top: 0.3rem;
+    }
+    .overViewDetailHeading{
+        font-size: 0.9rem;
+        color: #fccd0d;
+    }
+    .detailDetail{
+        font-size: 0.7rem;
+    }
+    .box-borderOverview {
+        padding: 10px;
+        /* border: 2px solid; */
+        /* border-image-slice: 1; */
+        /* border-width: 2px; */
+        /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
+        border-image: none;
+        background: none;
+        backdrop-filter: none;
+    }
+    .marginT{
+        margin-top: 0rem;
+        margin: 1rem;
+    }
+    .marginB{
+        margin-bottom: 0rem;
+        margin: 1rem;
+    }
+}
   
   @media screen and (max-width: 650px) and (min-width: 401px){
+    .Section2_head{
+        font-size: 2.2rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
     .TilesHeading{
         background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
         -webkit-background-clip: text;
@@ -592,6 +695,11 @@
   }
   
   @media screen and (max-width: 900px) and (min-width: 651px){
+    .Section2_head{
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
     .TilesHeading{
         background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
         -webkit-background-clip: text;
@@ -1029,6 +1137,11 @@
   }
 
   @media screen and (max-width: 1199px) and (min-width: 901px){
+    .Section2_head{
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
     .TilesHeading{
         background: -webkit-linear-gradient(rgba(243, 209, 15, 1), rgba(19, 24, 5, 0.8));
         -webkit-background-clip: text;
@@ -1176,10 +1289,6 @@
     }
     .box-borderOverview {
         padding: 10px;
-        /* border: 2px solid; */
-        /* border-image-slice: 1; */
-        /* border-width: 2px; */
-        /* border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00); */
         border-image: none;
         background: none;
         backdrop-filter: none;
@@ -1196,6 +1305,9 @@
   
   /* Just for Engagement tiles */
   @media screen and (max-width: 1700px) and (min-width: 1200px){
+    .Section2_head{
+        margin-bottom: 1rem;
+    }
     .tilesContainer{
         width: 90%;
     }
