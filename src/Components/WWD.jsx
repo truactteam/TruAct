@@ -5,8 +5,8 @@ import SAAS from '../Assets/Animations/Animation - SAAS_img.json';
 import CAD from '../Assets/Animations/Animation - CAD.json';
 import DATAANALYSIS from '../Assets/Animations/Animation - SAAS DashBoard.json';
 import { useNavigate } from 'react-router-dom';
-import bg_image1 from '../Assets/Image/blue_strip.png'
-import bg_image2 from '../Assets/Image/Angle_ring.png'
+// import bg_image1 from '../Assets/Image/blue_strip.png'
+// import bg_image2 from '../Assets/Image/Angle_ring.png'
 // import bg_image31 from '../Assets/Image/multiColor_ring.png';
 // import bg_image32 from '../Assets/Image/tech_ring.png';
 import bg_shape1 from '../Assets/Image/png_bg_shape1.png';
@@ -23,9 +23,9 @@ const WWD = () => {
             <div className='wwd_animation_section1'>
 
                 <div className='wwd_animationGroup1'>
-                    <div className='not-required'>
+                    {/* <div className='not-required'>
                         <img src={bg_image1} alt='bg_effect1' className='wwd_bg_img1'/>
-                    </div>
+                    </div> */}
                     <div className='wwd_animation1'>
                         <Lottie animationData={SAAS} loop={true} />
                     </div>
@@ -75,7 +75,7 @@ const WWD = () => {
                         <p className='wwd_textContainerHeading'>CUSTOM APPLICATION BUILDING</p>
                         <div className='wwd_detailContainer'>
                             <p className='wwd_textContainerDetails'>
-                            Build a custom bespoke application with us specifically catering to your business needs. Handle your users and data in a way that suits your organisation and increase your technology adoption chances by choosing custom application building path.
+                                Build a custom bespoke application with us specifically catering to your business needs. Handle your users and data in a way that suits your organisation and increase your technology adoption chances by choosing custom application building path.
                             </p>
                             <div className='wwd_linkButtonContainer'>
                               <p className='wwd_linkButton1' onClick={()=>navigate('')}>Learn More</p>
@@ -86,9 +86,9 @@ const WWD = () => {
                 </div>
 
                 <div className='wwd_animationGroup3'>
-                    <div className='not-required'>
+                    {/* <div className='not-required'>
                         <img src={bg_image2} alt='bg_effect1' className='wwd_bg_img2'/>
-                    </div>
+                    </div> */}
                     <div className='wwd_animation2'>
                         <Lottie animationData={CAD} loop={true} />
                     </div>
