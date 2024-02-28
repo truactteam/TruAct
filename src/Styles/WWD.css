@@ -19,22 +19,22 @@
     display: flex;
     width: 80%;
     height: 60vh;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 .wwd_animationGroup1{
     position: relative;
-    width: 70%;
-    margin-right: 2rem;
+    width: 80%;
+    margin-right: 1rem;
 }
 
 .wwd_bg_img1{
     position: absolute;
-    height: 110%;
-    width: 100%;
+    height: 100%;
+    width: 90%;
 }
 .wwd_animation1{
-    width: 100%;
+    width: 80%;
     margin-top: 2rem;
 }
 
@@ -59,14 +59,15 @@
     margin-top: 11rem;
 }
 .wwd_animation2{
-    width: 100%;
-    margin-top: 2rem;
+    width: 70%;
+    margin-top: 4rem;
+    margin-left: 5rem;
 }
 .wwd_animation_section2{
     display: flex;
     width: 80%;
     height: 60vh;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .wwd_content2{
     width: 100%;
@@ -89,9 +90,9 @@
 }
 .wwd_animation3{
     height: 80%;
-    width: 90%;
-    margin-top: 4em;
-    margin-right: 0.5em;
+    width: 80%;
+    margin-top: 5em;
+    margin-left: 8em;
 }
 .wwd_bg_img3{
     position: absolute;
@@ -120,12 +121,62 @@
     box-shadow: 20px 20px 50px rgba(29, 29, 29, 0.2);
 }
 
+/* 4rth Animation */
+.wwd_animation_section4{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin-top: 1rem;
+}
+.wwd_animationGroup4{
+    position: relative;
+    width: 50%;
+    margin-right: 5rem;
+}
+.wwd_animation4{
+    width: 100%;
+    margin-top: 3rem;
+    height: 100%;
+}
+.motionImgDiv4{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.motionImg4{
+    position: absolute;
+    opacity: 0.8;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    rotate: -25deg;
+}
+.insideMotion4{
+    height: 60vh;
+}
+.wwd_content4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.06), rgba(169, 100, 248, 0.08));
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgba(29, 29, 29, 0.2);
+}
+
 /* common sections */
 
 .wwd_textContainerHeading{
     color: #fccd0d;
     font-size: 2.5rem;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     transition: all 0.5s ease-in-out;
     padding: 0px 5px;
@@ -166,7 +217,7 @@
     border-radius: 25px;
     transition: all 0.2s ease-in-out;
     width: 90%;
-    color: rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
 }
 
 .wwd_linkButtonContainer{
@@ -177,7 +228,7 @@
 }
 
 .wwd_linkButton1{
-    background-color: rgba(97, 129, 76);
+    background-color: rgb(64, 219, 199);
     font-size: 1rem;
     margin: 1rem;
     padding: 10px 20px;
@@ -186,6 +237,7 @@
     font-weight: 600;
     transition: all 0.3s ease-in;
     cursor: pointer;
+    z-index: 2;
 }
 
 .wwd_linkButton2{
@@ -198,6 +250,7 @@
     font-weight: 500;
     transition: all 0.3s ease-in;
     cursor: pointer;
+    z-index: 2;
 }
 
 .wwd_linkButton1:hover{
@@ -210,7 +263,7 @@
 /* Friday */
 .motionImg1{
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.8;
     margin-left: 10rem;
     rotate: -25deg;
 }
@@ -241,7 +294,7 @@
 
 .motionImg2{
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.8;
     margin-right: 10rem;
     margin-top: 2rem;
     rotate: -25deg;
@@ -262,8 +315,8 @@
 
 .motionImg3{
     position: absolute;
-    opacity: 0.3;
-    margin-left: 10rem;
+    opacity: 0.6;
+    margin-right: 15rem;
     rotate: -25deg;
 }
 

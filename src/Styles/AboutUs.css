@@ -1,0 +1,161 @@
+.aboutUs_mainDiv{
+    background-color: black;
+    width: 100%;
+}
+
+.section_1_maindiv{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 50vh;
+    max-width: max-content;
+    gap: 10;
+    text-align: center;
+    color: white;
+}
+
+.section_1_header{
+    margin: 20px auto;
+    margin-top: 6rem;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 80%;
+}
+
+.sectio_header_p{
+    margin-inline: auto;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.section_01_img{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    transform: translateX(8%) translateY(95%);
+}
+
+.section_01_img img{
+    height: 30vh;
+    width: 20vw;
+    margin: 2rem;
+    border-radius: 30px;
+    box-shadow: 6px 6px 20px rgb(221, 98, 27),
+                -6px -6px 20px rgb(221, 98, 27);
+}
+
+.section_2_mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18rem;
+    width: 70%;
+    max-width: max-content;
+    gap: 1rem;
+    color: antiquewhite;
+}
+
+.section_2_FoundingStoryDiv1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+}
+.section_2_FoundingStoryDiv2{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    gap: 1rem;
+}
+
+.section_2_h1{
+    background-image: linear-gradient(to bottom right, #833AB4, #FD1D1D, #FCB045);
+    background-clip: text;
+    font-size: 2rem;
+    font-weight: 500;
+    -webkit-text-fill-color: transparent;
+}
+.section_2_img{
+    height: 40vh;
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.section_2_p1{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.section_2_OurVision1{
+    display: flex;
+    width: 80%;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.section_2_OurVision2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+    /*my-24*/
+}
+
+.section_2_OurVision2_h1{
+    background-image: linear-gradient(to bottom right, #FF512F, #F09819);
+    background-clip: text;
+    font-size: 2rem;
+    font-weight: 500;
+    -webkit-text-fill-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section_2_OurVision2_p1{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.section_2_ourMission{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+
+.section_2_ourMission_h1{
+    background-image: linear-gradient(to bottom right, #1FA2FF, #12D8FA, #A6FFCB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section_2_ourMission_p1{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}

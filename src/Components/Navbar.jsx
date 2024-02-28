@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li className='navbar_li' onClick={(()=>{navigate('/')})}><span className='span1'>HOME</span></li>
                 <li className='navbar_li'><a href='#WWD' style={{margin:'0px', padding:'0px'}}><span className='span1'>WWD</span></a></li>
                 <li><div className='navbar_icon' onClick={(()=>{navigate('/')})}><img src={logo} alt='logo' className='img'/></div></li>
-                <li className='navbar_li' onClick={(()=>{navigate('/about-us')})}><span className='span1'>ABOUT-US</span></li>
+                <li className='navbar_li' onClick={(()=>{navigate('/about-us')})}><span className='span1'><a href='/about-us'>ABOUT-US</a></span></li>
                 <li className='navbar_li' onClick={(()=>{navigate('/portal')})}><span className='span1'>PORTAL</span></li>
             </ul>
 

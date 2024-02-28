@@ -22,7 +22,7 @@ import { motion } from "framer-motion";
 import WWD from '../Components/WWD';
 // import bg_fill1 from '../Assets/Image/tech_bg_fill1.png';
 // import bg_fill2 from '../Assets/Image/tech_ring.png';
-import bg_fill3 from '../Assets/Image/tech_bg_fill2.png';
+// import bg_fill3 from '../Assets/Image/tech_bg_fill2.png';
 
 
 
@@ -127,39 +127,8 @@ const Home = () => {
             }}
         >
                 <div className='Section2_head'>
-                    {/* <p className='bg_fill1'><img src={bg_fill1} alt=''/></p> */}
-                    {/* <p className='bg_fill2'><img src={bg_fill2} alt=''/></p> */}
-                    <p className='bg_fill3'><img src={bg_fill3} alt='' style={{height:'30vh'}}/></p>
-                    WHAT WE DO
+                    WWD
                 </div>
-                {/* <div className='animation'>
-                    <Animation
-                        animationData={SAAS}
-                        heading={"SAAS ADOPTION"}
-                        Something1={"Setup SaaS  for your organisation to streamline your process and never worry about scaling. It scales with your organisation! Focus on your core business and let the SaaS handle everything else. "}
-                        Link1={""}
-                        Link2={""}
-                    />
-                </div>
-                <div className='animation'>
-                    <Animation
-                        animationData={CAD}
-                        heading={"CUSTOM APPLICATION BUILDING"}
-                        Something1={"Build a custom bespoke application with us specifically catering to your business needs. Handle your users and data in a way that suits your organisation and increase your technology adoption chances by choosing custom application building path."}
-                        Link1={""}
-                        Link2={""}
-                        reverse={"row-reverse"}
-                    />
-                </div>
-                <div className='animation'>
-                    <Animation
-                        animationData={DATAANALYSIS}
-                        heading={"DATA ANALYSIS"}
-                        Something1={"Have your existing data and KPIs analysed to give yourself, your team members and the entire organisation visibility of their data and activity in the most effect visual way resulting in smooth decision making and reverse reflection of contribution of each and every member towards organisational growth."}
-                        Link1={""}
-                        Link2={""}
-                    />
-                </div> */}
                 <WWD />
         </div>
             
